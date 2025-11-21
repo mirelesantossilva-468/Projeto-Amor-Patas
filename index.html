@@ -1,0 +1,232 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Amor & Patas — Cuidamos do seu pet</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Poppins:wght@600;800&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header role="banner">
+    <div class="header-inner">
+      <a href="#" class="logo" aria-label="Amor e Patas — Início">
+        <div class="mark" aria-hidden="true">AP</div>
+        <div class="text">Amor &amp; Patas</div>
+      </a>
+
+      <nav class="main-nav" role="navigation" aria-label="Menu principal">
+        <a href="#home">Início</a>
+        <a href="#servicos">Serviços</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#contato">Contato</a>
+      </nav>
+
+      <button class="hamburger" aria-label="Abrir menu" onclick="toggleMenu()">
+        ☰
+      </button>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <main class="hero" id="home" role="main">
+    <div class="hero-inner">
+      <div class="hero-content">
+        <div class="kicker">Serviços completos para seu pet</div>
+        <h1>Cuidamos do Seu Pet com Amor &amp; Dedicação</h1>
+        <p class="lead">Banho, passeio e hospedagem — tudo pensado para o conforto e segurança do seu amigo de quatro patas. Atendimento profissional e carinho em cada serviço.</p>
+
+        <div class="hero-cta">
+          <a class="btn btn-primary" href="https://api.whatsapp.com/send?phone=+5511999999999&text=Olá%20Amor%20%26%20Patas!%20Quero%20saber%20mais%20sobre%20os%20serviços" target="_blank" rel="noopener noreferrer">
+            Agendar pelo WhatsApp
+          </a>
+          <a class="btn btn-secondary" href="#servicos">Ver serviços</a>
+
+    
+        </div>
+      </div>
+
+      <aside class="hero-card" aria-hidden="true">
+        <h3>Atendimento que acolhe</h3>
+        <p>Profissionais qualificados, ambiente limpo e seguro. Pacotes personalizáveis conforme a necessidade do seu pet.</p>
+      </aside>
+
+    </div>
+  </main>
+
+  <!-- WhatsApp floating button -->
+  <a class="whatsapp-fab" href="https://api.whatsapp.com/send?phone=+5511999999999&text=Olá%20Amor%20%26%20Patas!" target="_blank" aria-label="Abrir WhatsApp">
+    <!-- whatsapp svg icon -->
+    <svg width="45" height="45" viewBox="0 0 24 24" fill="none" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+      <path d="M20.52 3.48A11.92 11.92 0 0012 0C5.373 0 0 5.373 0 12c0 2.116.553 4.095 1.603 5.857L0 24l6.369-1.61A11.92 11.92 0 0012 24c6.627 0 12-5.373 12-12 0-3.217-1.257-6.22-3.48-8.52z" fill="#fff" opacity="0.05"/>
+      <path d="M20.52 3.48A11.92 11.92 0 0012 0C5.373 0 0 5.373 0 12c0 2.116.553 4.095 1.603 5.857L0 24l6.369-1.61A11.92 11.92 0 0012 24c6.627 0 12-5.373 12-12 0-3.217-1.257-6.22-3.48-8.52z" fill="#04b754" />opacity="0.03"/>
+      <path d="M17.472 14.382c-.302-.151-1.782-.88-2.058-.981-.276-.101-.477-.151-.678.15-.201.302-.78.981-.957 1.184-.176.201-.352.226-.654.075-.302-.151-1.276-.468-2.43-1.498-.9-.803-1.506-1.792-1.683-2.094-.176-.302-.019-.465.132-.616.135-.134.302-.352.452-.528.151-.176.201-.302.302-.503.101-.201.05-.377-.025-.528-.075-.151-.678-1.635-.928-2.241-.244-.58-.49-.503-.678-.512l-.578-.01c-.201 0-.528.075-.805.377-.276.302-1.056 1.03-1.056 2.507 0 1.478 1.081 2.91 1.231 3.111.151.201 2.13 3.256 5.163 4.562 1.35.583 2.398.93 3.218 1.19 1.353.428 2.588.367 3.561.223.108-.047 1.056-.429 1.206-.843.151-.414.151-.77.105-.843-.047-.075-.176-.108-.377-.176-.201-.075-1.182-.435-1.36-.483z" fill="#fff"/>
+    </svg>
+  </a>
+
+  <section id="servicos" class="servicos-section">
+  <h2>Nossos Serviços</h2>
+
+  <div class="servicos-container">
+
+    <div class="servico-card">
+      <img src="https://cdn-icons-png.flaticon.com/512/616/616430.png" alt="Banho e Tosa">
+      <h3>Banho e Tosa</h3>
+      <p>Higiene completa e cuidados especiais para deixar seu pet ainda mais lindo e cheiroso.</p>
+    </div>
+
+    <div class="servico-card">
+      <img src="https://cdn-icons-png.flaticon.com/512/616/616408.png" alt="Passeio">
+      <h3>Passeio</h3>
+      <p>Passeios divertidos e seguros para gastar energia e melhorar o bem-estar do seu pet.</p>
+    </div>
+
+    <div class="servico-card">
+      <img src="https://cdn-icons-png.flaticon.com/512/609/609803.png" alt="Hospedagem">
+      <h3>Pet Hospedagem</h3>
+      <p>Hospedagem aconchegante para o seu pet enquanto você viaja. Amor e cuidado garantidos.</p>
+    </div>
+
+    <div class="servico-card">
+      <img src="https://cdn-icons-png.flaticon.com/512/3209/3209265.png" alt="Vet Parceiro">
+      <h3>Serviço Veterinário</h3>
+      <p>Atendimento com nosso parceiro veterinário para manter a saúde do seu pet em dia.</p>
+    </div>
+
+  </div>
+</section>
+
+<section id="depoimentos" class="depoimentos-section">
+  <h2>Depoimentos de Clientes</h2>
+
+  <div class="carousel-container">
+
+    <div class="carousel">
+
+      <div class="slide active">
+        <p class="texto">"Serviço impecável! Meu cachorro voltou feliz e cheiroso. Recomendo demais!"</p>
+        <h3>— Ana Oliveira</h3>
+      </div>
+
+      <div class="slide">
+        <p class="texto">"A equipe é super amorosa e cuidadosa. A hospedagem foi perfeita!"</p>
+        <h3>— Marcos Silva</h3>
+      </div>
+
+      <div class="slide">
+        <p class="texto">"O passeio diário ajudou muito na ansiedade do meu pet. Nota 10!"</p>
+        <h3>— Carla Mendes</h3>
+      </div>
+
+    </div>
+
+    <div class="carousel-controls">
+      <button id="prev">←</button>
+      <button id="next">→</button>
+    </div>
+
+  </div>
+</section>
+
+<section id="sobre" class="sobre-section">
+  <div class="sobre-container">
+
+    <div class="sobre-imagem">
+      <img src="./assets/img sobre.png" alt="Cuidado com Pets">
+    </div>
+
+    <div class="sobre-texto">
+      <h2>Sobre Nós</h2>
+      <p>
+        No Amor & Patas, acreditamos que cada pet merece carinho,
+        conforto e atenção personalizada. Somos apaixonados por cuidar
+        dos seus companheiros com responsabilidade e muito amor.
+      </p>
+      <p>
+        Oferecemos serviços de qualidade, desde banho e tosa até
+        hospedagem completa, garantindo bem-estar e segurança enquanto
+        você trabalha, viaja ou descansa.
+      </p>
+      <p>
+        Aqui, seu pet é tratado como membro da família. ♥
+      </p>
+    </div>
+
+  </div>
+</section>
+
+<section id="contato" class="contato">
+  <h2>Entre em Contato</h2>
+  <p>Fale com nossa equipe e tire dúvidas sobre nossos serviços!</p>
+
+  <div class="contato-container">
+
+    <form class="contato-form">
+      <input type="text" placeholder="Seu nome" required>
+      <input type="email" placeholder="Seu e-mail" >
+      <input type="text" placeholder="Seu telefone" required>
+      <textarea placeholder="Sua mensagem" rows="5"></textarea>
+      <button type="submit" class="btn-contato">Enviar Mensagem</button>
+    </form>
+
+    <div class="contato-info">
+      <h3>Atendimento</h3>
+      <p><strong>WhatsApp:</strong> (XX) XXXXX-XXXX</p>
+      <p><strong>Email:</strong> amorpatas@contato.com</p>
+      <p><strong>Horário:</strong> 08h às 18h - Seg à Sáb</p>
+
+      <a href="https://wa.me/55XXXXXXXXXX" class="contato-whats" target="_blank">
+        Chamar no WhatsApp
+      </a>
+    </div>
+
+  </div>
+</section>
+
+<section id="contato" class="contato-section">
+  <h2>Localização</h2>
+
+  <!-- MAPA -->
+  <div class="map-container">
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.6501166445654!2d-46.67862482454681!3d-23.580066562620746!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59cd07d7dd0d%3A0xacf7f4e6070f78e1!2sAv.%20Paulista%2C%201000!5e0!3m2!1spt-BR!2sbr!4v0000000000"
+      width="100%"
+      height="300"
+      style="border:0;">
+    </iframe>
+  </div>
+
+  <!-- ENDEREÇO -->
+  <p class="endereco">
+    📍 Rua dos Animais Felizes, 123 – Centro, São Paulo – SP
+  </p>
+
+  <!-- ÍCONES SOCIAIS -->
+  <div class="social-icons">
+    <a href="https://www.instagram.com" target="_blank">
+      <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram">
+    </a>
+    <a href="https://www.facebook.com" target="_blank">
+      <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook">
+    </a>
+    <a href="mailto:contato@amorepatas.com">
+      <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="E-mail">
+    </a>
+    <a href="https://wa.me/5599999999999" target="_blank">
+      <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="WhatsApp">
+    </a>
+  </div>
+</section>
+
+
+
+  <script
+   src="script.js">
+</script>
+  
+</body>
+</html>
